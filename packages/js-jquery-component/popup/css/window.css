@@ -1,0 +1,164 @@
+.window_mask{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color: #000;
+	opacity: 0.6;
+	z-index: 10;
+}
+.window_boundingBox{
+	width: 500px;
+	height: 500px;
+	position:absolute;
+	top:100px;
+	left:50%;
+	margin-left:-250px;
+	opacity: 0.8;
+	border:1px solid #000;
+	box-shadow: 0 0 12px rgba(0,0,0,0.5);
+	/* position:relative; */
+	z-index: 20;
+	background-color: #fff;
+}
+
+ .window_header{
+	background-color:#333 ;
+	color:#fff;
+	text-align:center ;
+	padding:5px;
+	font-size: 20px;
+}
+ .window_body{
+	padding:10px;
+}
+
+.window_foot{
+	/* position:absolute; */
+	/* bottom:10px; */
+}
+ .window_foot  input{
+	display: block;
+	width: 80px;
+	padding: 5px 10px;
+	text-align: center;
+	box-shadow: 0 0 12px rgba(0,0,0,0.5);
+	text-align: center;
+	border: none;
+	outline:none;
+	box-sizing: border-box;
+	font-size: 14px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.window_alertBtn{
+	position: absolute;
+	left:50%;
+	bottom: 10px;
+	margin-left: -40px;
+}
+.window_confirmBtn{
+	position: absolute;
+	right:20px;
+	bottom: 10px;
+}
+.window_promptBtn{
+	position: absolute;
+	right:20px;
+	bottom: 10px;
+}
+.window_canceltBtn{
+	position: absolute;
+	left:20px;
+	bottom: 10px;
+}
+.window_closeBtn{
+	position:absolute;
+	top: 0;
+	right:0px;
+	font-size: 20px;
+	color: #fff;
+	cursor:pointer;
+	padding:5px 10px;
+	background-color: blue;
+}
+.window_promptInputWrapper{
+	display: block;
+	text-align: center;
+}
+
+.window_skin_a{
+	box-shadow: none;
+	border:10px solid rgba(0,0,0,0.5);
+}
+
+.window_skin_a .window_header{
+	background-color: pink;
+	text-align: left;
+	font-size: 24px;
+	font-weight: bold;
+	padding:10px
+}
+
+.window_skin_a .window_closeBtn{
+	width: 45px;
+	height:45px;
+	border-radius: 100%;
+	background-color: plum;
+	line-height: 45px;
+	text-align: center;
+	right:-15px;
+	top:-15px;
+	font-size:24px ;
+	font-weight: bold;
+}
+
+.window_skin_a .window_foot  .window_alertBtn{
+	width:auto;
+	background-color: pink;
+	box-sizing: border-box;
+	font-size: 14px;
+	padding: 10px;
+	color:#fff;
+	left:auto;
+	right:20px;
+	text-align: center;
+}
+.window_skin_a .window_foot .window_confirmBtn{
+	width:auto;
+	background-color: pink;
+	box-sizing: border-box;
+	font-size: 14px;
+	padding: 10px;
+	color:#fff;
+	left:auto;
+	right:20px;
+	text-align: center;
+}
+
+.window_skin_a .window_foot .window_promptBtn{
+	width:auto;
+	background-color: pink;
+	box-sizing: border-box;
+	font-size: 14px;
+	padding: 10px;
+	color:#fff;
+	left:auto;
+	right:20px;
+	text-align: center;
+}
+
+.window_skin_a .window_foot .window_canceltBtn{
+	width:auto;
+	background-color: pink;
+	box-sizing: border-box;
+	font-size: 14px;
+	padding: 10px;
+	color:#fff;
+	left:auto;
+	left:20px;
+	text-align: center;
+}
+
+

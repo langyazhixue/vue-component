@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/window.css" />
+	</head>
+	<body>
+		<button id="a">alert</button>
+		<button id='b'>confirm</button>
+		<button id='c'>prompt</button>
+		<button id='d'>common</button>
+	</body>
+</html>
+<script src='js/require.js'  data-main='js/main'></script>
+
+<script>
+	//个人感觉所谓的同步异步的问题，还是看各个代码块的依赖关系，如果代码毫无依赖，从上之下依次执行毫无问题，可以看成同步执行。
+	//如果B代码依赖于A代码，A不执行完就执行B的话就会报错，所以只要A先于B执行完成即可，假设A执行所需要花的时间很长，
+	//而除了B以外的代码没有任何与AB的依赖关系，那么除了B需要阻塞一下，其他的代码可以直接执行，也就是所谓的异步，这样理解对否？
+</script>
